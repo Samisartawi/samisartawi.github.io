@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Facts</title>
+</head>
+<body>
+    <h1>Cat Facts</h1>
+    <button id="fetch-button">Fetch Cat Facts</button>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Fact ID</th>
+                <th>Fact</th>
+            </tr>
+        </thead>
+        <tbody id="fact-table-body">
+            <!-- Rows will be populated here -->
+        </tbody>
+    </table>
+
+    <img id="cat.png" src="placeholder.jpg" alt="Cat Image" width="300">
+
+    <script src="document.js"></script>
+</body>
+</html>

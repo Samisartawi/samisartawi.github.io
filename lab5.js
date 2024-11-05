@@ -1,4 +1,4 @@
-document.getElementById('registrationForm').addEventListener('submit', function(event) {
+function handleRegistration(event) {
   event.preventDefault();
 
   const firstName = document.getElementById('firstName').value;
@@ -31,4 +31,4 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     <p><strong>Date of Birth:</strong> ${user.dob}</p>
     <p><strong>Password:</strong> ${user.password}</p>
   `;
-});
+}

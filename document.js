@@ -1,5 +1,3 @@
-document.getElementById("fetch-button").addEventListener("click", displayCatFacts);
-
 function displayCatFacts() {
     const data = {
         facts: [
@@ -32,3 +30,5 @@ function displayCatFacts() {
 
     document.getElementById("cat.png").src = data.catPhoto;
 }
+
+displayCatFacts();
